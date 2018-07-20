@@ -11,6 +11,16 @@ export class AppRoot {
       <div class="container">
         <brn-row>
           <brn-column columns={3} total={12}>
+          <h6>Introduction</h6>
+            <ul class="margin-bottom">
+              <li>
+                <a href="#">Get started</a>
+              </li>
+              <li>
+                <a href="#">Integration</a>
+              </li>
+            </ul>
+
             <h6>Components</h6>
             <ul>
               <li>
@@ -23,6 +33,9 @@ export class AppRoot {
               </li>
               <li>
                 <a href="#">Dropdowns</a>
+              </li>
+              <li>
+                <a href="#">Dynamic columns</a>
               </li>
               <li>
                 <a href="#">Inputs</a>
