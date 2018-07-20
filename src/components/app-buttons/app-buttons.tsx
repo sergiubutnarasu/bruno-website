@@ -39,6 +39,26 @@ export class AppButtons implements ComponentDidLoad {
         </p>
 
         <div class="margin-bottom child-margin-right">
+          <div class="brn-button">Primary</div>
+        </div>
+
+        <pre>
+          <code class="html">
+            {'<div class="brn-button">Primary</div>'}
+          </code>
+        </pre>
+
+        <hr />
+
+        <h5 class="margin-bottom">Types</h5>
+
+        <p class="margin-bottom">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquam
+          iste facere dolor deleniti similique sequi eligendi. Numquam at enim
+          alias amet esse harum illo fugiat aspernatur ea autem.
+        </p>
+
+        <div class="margin-bottom child-margin-right">
           <div class="brn-button brn-button--primary">Primary</div>
           <div class="brn-button brn-button--secondary">Secondary</div>
           <div class="brn-button brn-button--success">Success</div>

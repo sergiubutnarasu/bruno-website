@@ -1,0 +1,17 @@
+@import "../../node_modules/bruno-ui/dist/bruno.css";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  margin-bottom: 5px;
+}
+
+ul li {
+  padding: 2px 0;
+}
+
+.child-margin-right > div {
+  margin-right: 5px;
+}

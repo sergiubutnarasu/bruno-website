@@ -25,9 +25,9 @@ declare global {
   interface HTMLAttributes {}
 }
 
-import 'bruno-ui';
 import '@stencil/router';
 import '@stencil/state-tunnel';
+import 'bruno-ui';
 
 
 declare global {

@@ -1,5 +1,6 @@
 import { Component } from "@stencil/core";
 import "@stencil/router";
+import "bruno-ui";
 
 @Component({
   tag: "app-root",

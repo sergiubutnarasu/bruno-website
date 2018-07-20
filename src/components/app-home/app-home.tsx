@@ -1,5 +1,4 @@
 import { Component } from "@stencil/core";
-import "bruno-ui";
 
 @Component({
   tag: "app-home",
