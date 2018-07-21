@@ -12,7 +12,7 @@ export class AppRoot {
       <div class="container">
         <brn-row>
           <brn-column columns={3} total={12}>
-          <h6>Introduction</h6>
+            <h6>Introduction</h6>
             <ul class="margin-bottom">
               <li>
                 <a href="#">Get started</a>
@@ -30,7 +30,7 @@ export class AppRoot {
                 </stencil-route-link>
               </li>
               <li>
-              <stencil-route-link url="/components/checkboxes">
+                <stencil-route-link url="/components/checkboxes">
                   Checkboxes
                 </stencil-route-link>
               </li>
@@ -44,7 +44,9 @@ export class AppRoot {
                 <a href="#">Inputs</a>
               </li>
               <li>
-                <a href="#">Radio buttons</a>
+                <stencil-route-link url="/components/radio-buttons">
+                  Radio buttons
+                </stencil-route-link>
               </li>
               <li>
                 <a href="#">Tabs</a>

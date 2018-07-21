@@ -38,7 +38,7 @@ export class AppCheckboxes implements ComponentDidLoad {
         </p>
 
         <div class="margin-bottom child-margin-right">
-          <brn-checkbox checked={true} text="Default" />
+          <brn-checkbox checked={true}>Default</brn-checkbox>
         </div>
 
         <pre>
@@ -58,19 +58,33 @@ export class AppCheckboxes implements ComponentDidLoad {
         </p>
 
         <div class="margin-bottom child-margin-right">
-          <brn-checkbox checked={true} type="primary" text="Primary" />
-          <brn-checkbox checked={true} type="secondary" text="Secondary" />
-          <brn-checkbox checked={true} type="success" text="Success" />
-          <brn-checkbox checked={true} type="danger" text="Danger" />
-          <brn-checkbox checked={true} type="info" text="Info" />
-          <brn-checkbox checked={true} type="light" text="Light" />
-          <brn-checkbox checked={true} type="dark" text="Dark" />
+          <brn-checkbox checked={true} type="primary">
+            Primary
+          </brn-checkbox>
+          <brn-checkbox checked={true} type="secondary">
+            Secondary
+          </brn-checkbox>
+          <brn-checkbox checked={true} type="success">
+            Success
+          </brn-checkbox>
+          <brn-checkbox checked={true} type="danger">
+            Danger
+          </brn-checkbox>
+          <brn-checkbox checked={true} type="info">
+            Info
+          </brn-checkbox>
+          <brn-checkbox checked={true} type="light">
+            Light
+          </brn-checkbox>
+          <brn-checkbox checked={true} type="dark">
+            Dark
+          </brn-checkbox>
         </div>
 
         <pre>
           <code class="html">
             {
-              '<brn-checkbox checked="true" type="primary">Default</brn-checkbox>'
+              '<brn-checkbox checked="true" type="primary">Primary</brn-checkbox>'
             }
             <br />
             {
@@ -81,21 +95,13 @@ export class AppCheckboxes implements ComponentDidLoad {
               '<brn-checkbox checked="true" type="success">Success</brn-checkbox>'
             }
             <br />
-            {
-              '<brn-checkbox checked="true" type="danger">Danger</brn-checkbox>'
-            }
+            {'<brn-checkbox checked="true" type="danger">Danger</brn-checkbox>'}
             <br />
-            {
-              '<brn-checkbox checked="true" type="info">Info</brn-checkbox>'
-            }
+            {'<brn-checkbox checked="true" type="info">Info</brn-checkbox>'}
             <br />
-            {
-              '<brn-checkbox checked="true" type="light">Light</brn-checkbox>'
-            }
+            {'<brn-checkbox checked="true" type="light">Light</brn-checkbox>'}
             <br />
-            {
-              '<brn-checkbox checked="true" type="dark">Dark</brn-checkbox>'
-            }
+            {'<brn-checkbox checked="true" type="dark">Dark</brn-checkbox>'}
             <br />
           </code>
         </pre>

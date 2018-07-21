@@ -26,7 +26,6 @@ declare global {
 }
 
 import '@stencil/router';
-import '@stencil/state-tunnel';
 import 'bruno-ui';
 
 
@@ -156,6 +155,39 @@ declare global {
   }
   namespace JSXElements {
     export interface AppHomeAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface AppRadio {
+
+    }
+  }
+
+  interface HTMLAppRadioElement extends StencilComponents.AppRadio, HTMLStencilElement {}
+
+  var HTMLAppRadioElement: {
+    prototype: HTMLAppRadioElement;
+    new (): HTMLAppRadioElement;
+  };
+  interface HTMLElementTagNameMap {
+    'app-radio': HTMLAppRadioElement;
+  }
+  interface ElementTagNameMap {
+    'app-radio': HTMLAppRadioElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'app-radio': JSXElements.AppRadioAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AppRadioAttributes extends HTMLAttributes {
 
     }
   }
