@@ -2,13 +2,13 @@ import {
   Component,
   Element,
   ComponentDidLoad
-} from "../../../node_modules/@stencil/core";
+} from "@stencil/core";
 import hljs from "highlight.js";
 
 @Component({
-  tag: "app-buttons"
+  tag: "app-button"
 })
-export class AppButtons implements ComponentDidLoad {
+export class AppButton implements ComponentDidLoad {
   @Element() _element: HTMLElement;
 
   componentDidLoad() {
@@ -480,12 +480,12 @@ export class AppButtons implements ComponentDidLoad {
         <pre>
           <code class="html">
             {`<div class="brn-button brn-button--primary">
-  <i class="brn-button__icon ion-ios-git-branch" /> Lorem ipsum
+  <i class="brn-button__icon ion-ios-git-branch"></i> Lorem ipsum
 </div>`}
             <br />
             <br />
             {`<div class="brn-button brn-button--light">
-  Lorem ipsum <i class="brn-button__icon brn-button__icon--right ion-ios-contact" />
+  Lorem ipsum <i class="brn-button__icon brn-button__icon--right ion-ios-contact"></i>
 </div>`}
             <br />
           </code>

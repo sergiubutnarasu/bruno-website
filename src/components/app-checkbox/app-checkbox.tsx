@@ -2,9 +2,9 @@ import { Component, ComponentDidLoad, Element } from "@stencil/core";
 import hljs from "highlight.js";
 
 @Component({
-  tag: "app-checkboxes"
+  tag: "app-checkbox"
 })
-export class AppCheckboxes implements ComponentDidLoad {
+export class AppCheckbox implements ComponentDidLoad {
   @Element() _element: HTMLElement;
 
   componentDidLoad() {

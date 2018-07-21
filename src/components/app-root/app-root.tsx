@@ -35,13 +35,19 @@ export class AppRoot {
                 </stencil-route-link>
               </li>
               <li>
-                <a href="#">Dropdowns</a>
+                <stencil-route-link url="/components/dropdowns">
+                  Dropdowns
+                </stencil-route-link>
               </li>
               <li>
-                <a href="#">Dynamic columns</a>
+                <stencil-route-link url="/components/dynamic-columns">
+                  Dynamic columns
+                </stencil-route-link>
               </li>
               <li>
-                <a href="#">Inputs</a>
+                <stencil-route-link url="/components/inputs">
+                  Inputs
+                </stencil-route-link>
               </li>
               <li>
                 <stencil-route-link url="/components/radio-buttons">
@@ -49,13 +55,19 @@ export class AppRoot {
                 </stencil-route-link>
               </li>
               <li>
-                <a href="#">Tabs</a>
+                <stencil-route-link url="/components/tabs">
+                  Tabs
+                </stencil-route-link>
               </li>
               <li>
-                <a href="#">Toggles</a>
+                <stencil-route-link url="/components/toggles">
+                  Toggles
+                </stencil-route-link>
               </li>
               <li>
-                <a href="#">Typography</a>
+                <stencil-route-link url="/components/typography">
+                  Typography
+                </stencil-route-link>
               </li>
             </ul>
           </brn-column>
