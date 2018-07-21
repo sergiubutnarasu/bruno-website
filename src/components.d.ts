@@ -66,6 +66,39 @@ declare global {
 declare global {
 
   namespace StencilComponents {
+    interface AppCheckboxes {
+
+    }
+  }
+
+  interface HTMLAppCheckboxesElement extends StencilComponents.AppCheckboxes, HTMLStencilElement {}
+
+  var HTMLAppCheckboxesElement: {
+    prototype: HTMLAppCheckboxesElement;
+    new (): HTMLAppCheckboxesElement;
+  };
+  interface HTMLElementTagNameMap {
+    'app-checkboxes': HTMLAppCheckboxesElement;
+  }
+  interface ElementTagNameMap {
+    'app-checkboxes': HTMLAppCheckboxesElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'app-checkboxes': JSXElements.AppCheckboxesAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AppCheckboxesAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface AppComponents {
 
     }

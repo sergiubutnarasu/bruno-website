@@ -10,6 +10,7 @@ export class AppComponents {
         <stencil-router>
           <stencil-route-switch scrollTopOffset={0}>
             <stencil-route url="/components/buttons" component="app-buttons" />
+            <stencil-route url="/components/checkboxes" component="app-checkboxes" />
           </stencil-route-switch>
         </stencil-router>
       </div>

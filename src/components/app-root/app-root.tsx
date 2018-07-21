@@ -30,7 +30,9 @@ export class AppRoot {
                 </stencil-route-link>
               </li>
               <li>
-                <a href="#">Checkboxes</a>
+              <stencil-route-link url="/components/checkboxes">
+                  Checkboxes
+                </stencil-route-link>
               </li>
               <li>
                 <a href="#">Dropdowns</a>

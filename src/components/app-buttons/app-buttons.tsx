@@ -12,7 +12,10 @@ export class AppButtons implements ComponentDidLoad {
   @Element() _element: HTMLElement;
 
   componentDidLoad() {
-    hljs.initHighlighting();
+    let children = this._element.getElementsByTagName("code");
+    Array.from(children).forEach(x => {
+      hljs.highlightBlock(x);
+    });
   }
 
   render() {
@@ -43,9 +46,7 @@ export class AppButtons implements ComponentDidLoad {
         </div>
 
         <pre>
-          <code class="html">
-            {'<div class="brn-button">Primary</div>'}
-          </code>
+          <code class="html">{'<div class="brn-button">Primary</div>'}</code>
         </pre>
 
         <hr />
@@ -470,9 +471,9 @@ export class AppButtons implements ComponentDidLoad {
             <i class="brn-button__icon ion-ios-git-branch" /> Lorem ipsum
           </div>
 
-          <div class="brn-button brn-button--light brn-button__icon--right">
+          <div class="brn-button brn-button--light">
             Lorem ipsum
-            <i class="brn-button__icon ion-ios-contact" />
+            <i class="brn-button__icon brn-button__icon--right ion-ios-contact" />
           </div>
         </div>
 
@@ -483,8 +484,8 @@ export class AppButtons implements ComponentDidLoad {
 </div>`}
             <br />
             <br />
-            {`<div class="brn-button brn-button--light brn-button__icon--right">
-  Lorem ipsum <i class="brn-button__icon ion-ios-contact" />
+            {`<div class="brn-button brn-button--light">
+  Lorem ipsum <i class="brn-button__icon brn-button__icon--right ion-ios-contact" />
 </div>`}
             <br />
           </code>
