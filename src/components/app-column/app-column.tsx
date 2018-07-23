@@ -60,19 +60,19 @@ export class AppColumn implements ComponentDidLoad {
         <pre>
           <code class="html">
             {`<brn-row>
-    <brn-column columns={3} total={12}>
+    <brn-column columns="2" total="12">
         First column
     </brn-column>
 
-    <brn-column columns={3} total={12}>
+    <brn-column columns="3" total="12">
         Second column
     </brn-column>
 
-    <brn-column columns={3} total={12}>
+    <brn-column columns="3" total="12">
         Third column
     </brn-column>
 
-    <brn-column columns={3} total={12}>
+    <brn-column columns="3" total="12">
         Fourth column
     </brn-column>
 </brn-row>`}
