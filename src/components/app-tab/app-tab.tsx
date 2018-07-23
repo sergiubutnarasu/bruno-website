@@ -58,7 +58,7 @@ export class AppTab implements ComponentDidLoad {
         <pre>
           <code class="html">
             {`<brn-tabs>
-    <brn-tab name="First" active={true}>
+    <brn-tab name="First" active="true">
         <p>Lorem ipsum dolor sit amet.</p>
     </brn-tab>
 
